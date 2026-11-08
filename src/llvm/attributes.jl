@@ -1284,7 +1284,6 @@ function mark_gpu_intrinsics!(target, mod::LLVM.Module)
             "logb",
             "isinf",
             "sqrt",
-            "fabs",
             "atan2",
         )
         # isinf, finite "modf",       "fmod",    "remainder", 
@@ -1342,7 +1341,6 @@ function mark_gpu_intrinsics!(target, mod::LLVM.Module)
             "exp",
             "native_exp",
             "expm1",
-            "fabs",
             "fdim",
             "floor",
             "fma",
